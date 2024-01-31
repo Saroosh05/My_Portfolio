@@ -8,8 +8,8 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: hsl(227, 36%, 46%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --first-color: hsl(14, 33%, 55%);
+  --second-color: hsl(0, 0%, 0%);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -227,7 +227,7 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 100;
+  bottom: 100px;
   width: 360px;
 }
 
@@ -236,8 +236,8 @@ img {
 }
 
 .home__blob-img {
-  height: 480px;
-  width: 360px;
+  height: 600px;
+  width: 500px;
 }
 
 /*BUTTONS*/
@@ -270,8 +270,9 @@ img {
 }
 
 .about__img img {
-  width: 200px;
-  border-radius: .5rem;
+  width: 270px;
+  border-radius: 1.5rem;
+  margin-bottom: 5%;
 }
 
 /* ===== SKILLS =====*/
@@ -347,7 +348,8 @@ img {
 
 .skills__img {
   border-radius: 1.5rem;
-  height: 29.5rem;
+  height: 25.5rem;
+  margin-top: 5%;
 }
 
 /* ===== WORK =====*/
@@ -448,8 +450,8 @@ img {
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    text-align: initial;
+    align-items:safe center;
+    text-align: justify;
   }
   .skills__container {
     grid-template-columns: .7fr;
@@ -510,16 +512,17 @@ img {
     bottom: 10%;
   }
   .about__container {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .about__img img {
-    width: 300px;
+    width: 350px;
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     align-items: center;
     text-align: initial;
+    padding-top: 2rem;
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
